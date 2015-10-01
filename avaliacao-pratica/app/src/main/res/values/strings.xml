@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">avaliacao-pratica</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contacts_note_form">ContactsNoteForm</string>
+    <string name="lbl_name">Name</string>
+</resources>
