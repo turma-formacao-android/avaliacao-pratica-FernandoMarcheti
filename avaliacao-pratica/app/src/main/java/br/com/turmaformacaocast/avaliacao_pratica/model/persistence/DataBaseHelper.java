@@ -5,6 +5,10 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import br.com.turmaformacaocast.avaliacao_pratica.model.entities.Phone;
+import br.com.turmaformacaocast.avaliacao_pratica.model.persistence.contracts.ContactContract;
+import br.com.turmaformacaocast.avaliacao_pratica.model.persistence.contracts.EmailContract;
+import br.com.turmaformacaocast.avaliacao_pratica.model.persistence.contracts.PhoneContract;
 import br.com.turmaformacaocast.avaliacao_pratica.util.ApplicationUtil;
 
 public class DataBaseHelper extends SQLiteOpenHelper {
@@ -23,6 +27,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL((ContactContract.getCreateTableScript()));
+        db.execSQL((PhoneContract.getCreateTableScript()));
+        db.execSQL((EmailContract.getCreateTableScript()));
     }
 
     @Override

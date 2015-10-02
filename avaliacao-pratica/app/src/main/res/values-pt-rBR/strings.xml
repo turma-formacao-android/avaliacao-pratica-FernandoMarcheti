@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="lbl_name">Nome</string>
+    <string name="msg_required">Campos Obrigatórios</string>
+    <string name="Loading">Carregando...</string>
+    <string name="msg_save_success">salvo com sucesso</string>
+    <string name="lbl_save">Salvar</string>
+    <string name="lbl_phone">Telefone</string>
+    <string name="lbl_add">Adicionar</string>
+    <string name="title_activity_phone_form">PhoneFormActivity</string>
+    <string name="lbl_email">Email</string>
 </resources>

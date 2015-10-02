@@ -12,4 +12,66 @@
         android:layout_height="wrap_content"
         android:hint="@string/lbl_name" />
 
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lbl_phone"
+        android:layout_below="@+id/editTextName"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonAddPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_add"
+        android:layout_alignBottom="@+id/editTextPhone"
+        android:layout_alignEnd="@+id/editTextPhone" />
+
+    <Spinner
+        android:id="@+id/spinnerItemPhone"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="30dp"
+        android:layout_below="@+id/editTextPhone"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/buttonAddPhone" />
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lbl_email"
+        android:layout_below="@+id/spinnerItemPhone"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonAddEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_add"
+        android:layout_alignBottom="@+id/editTextEmail"
+        android:layout_alignEnd="@+id/editTextEmail" />
+
+
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_save"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Spinner
+        android:id="@+id/spinnerItemEmail"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="30dp"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/buttonAddEmail" />
+
 </RelativeLayout>

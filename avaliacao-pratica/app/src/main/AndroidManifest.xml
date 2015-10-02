@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.turmaformacaocast.avaliacao_pratica" >
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:name=".ContactsNoteManagerApplication"
         android:allowBackup="true"
@@ -20,6 +21,10 @@
         <activity
             android:name=".controller.activities.ContactsNoteForm"
             android:label="@string/title_activity_contacts_note_form" >
+        </activity>
+        <activity
+            android:name=".controller.activities.PhoneFormActivity"
+            android:label="@string/title_activity_phone_form" >
         </activity>
     </application>
 
